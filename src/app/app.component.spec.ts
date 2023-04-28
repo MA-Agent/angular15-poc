@@ -30,6 +30,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular15-poc app is running!');
+    expect(compiled.querySelector('span')?.textContent).toContain('angular 15 poc | prod');
   });
 });
